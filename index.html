@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles\styles.css">
+    <link rel="stylesheet" href="styles\reset.css">
+
+    <title>Encriptador de texto</title>
+ </head>
+  <body>
+    <main> 
+<div id="containerPrincipal">
+
+       <div id="containerElementos">
+       <form>
+         <input id="texto" type="text"  placeholder="Ingresa el texto aqui">
+       </form>
+   
+      <p class="textoParrafo"> Solo letras minúsculas y sin acentos </p> 
+      <div id="botones">
+      <button  class="boton" onclick="encriptarTexto()">Encriptar</button>
+      <button  class="boton" onclick="desencriptarTexto()">Desencriptar</button>
+      </div>
+     </div>
+
+<div id="containerResultado"> 
+    <div id="resultado">
+    </div>
+   </div>
+</div>
+
+    </main>
+    <footer>
+      <p class="textoParrafo" > Pagina Web creada y diseñada por Lucía Agüero</p>
+      <p class="textoParrafo" > en Alura ONE</p>
+    </footer>
+          <script src="./scripts/index.js" > </script>
+          
+ </body>
+</html>
+
+ 
